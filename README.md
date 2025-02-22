@@ -21,7 +21,7 @@ The overall architecture of tiny deepfake detection (TinyDF). It consists of fou
 
 
 <div align="center">
-    <img width="400" alt="image" src="asserts/introdcution.png?raw=true">
+    <img width="400" alt="image" src="asserts/introduction.png?raw=true">
 </div>
 
 
