@@ -1,5 +1,5 @@
 <div align="center">
-<h1> ASC-Seg: Adaptive Structure Alignment and Cross-scale Decoding for Medical Image Segmentation </h1>
+<h1> TinyDF: Tiny and Effective Model for Deepfake Detection </h1>
 </div>
 
 ## 🎈 News
@@ -36,8 +36,8 @@ Compared with the existing methods in terms of model parameters, calculation cos
 ### 1. Install Environment
 
 ```
-conda create -n TinyNet python=3.8
-conda activate TinyNet
+conda create -n TinyDF python=3.8
+conda activate TinyDF
 pip install -r requirements.txt
 ```
 
@@ -47,7 +47,7 @@ pip install -r requirements.txt
 - Folder organization: put FF++(c23) datasets into ./data/FF++(c23) folder, DFDC datasets into ./data/DFDC folder, and DFR datasets into ./data/DFR folder, CelebDF-v2 datasets into ./data/CelebDF-v2 folder, and WDF datasets into ./data/WDF folder.
 
 
-### 3. Train the ASC-Seg
+### 3. Train the TinyDF
 
 ```
 python train.py --datasets
@@ -56,7 +56,7 @@ pre-training file is saved to ./checkpoints
 concrete information see .train.py, please
 ```
 
-### 3. Test the ASC-Seg
+### 3. Test the TinyDF
 
 ```
 python test.py --datasets
